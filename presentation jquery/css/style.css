@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    margin:0 ; 
+}
+
+
+nav ul {
+    display: flex; 
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    background-color: #4054b2;
+    
+}
+nav ul li {
+    margin:20px 0 ;
+}
+
+
+nav ul a {
+    text-decoration: none;
+    color:#fff ; 
+    font-size: 20px;
+
+}
+
+main {
+    width:60%; 
+    margin: 0 auto ; 
+}
+main article {
+    box-shadow: 3px 3px 3px gray;
+    margin: 40px 0 ; 
+
+}
+main article button {
+    background-color:#4054b2;
+    color: #fff; 
+    padding:5px;
+    float: right;
+    margin:0 10px 10px 0;
+}
+
+main article div {
+    clear: right;
+}
+
+main article img {
+    float:left; 
+    margin-right: 20px;
+}
+
+.paraStyle {
+    background-color:blue;
+    color:#fff; 
+    font-size: 25px;
+}
+
+.active {
+    border-bottom: 3px solid #fff;
+}
+
+.lastPara {
+    background-color: red;
+    font-size: 20px;
+    color: white ; 
+}
